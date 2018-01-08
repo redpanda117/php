@@ -1,3 +1,6 @@
 <?php
-    echo 'Hello World';
+
+$greeting = "Hello php";
+
+    echo 'Started learning php so ' . $greeting;
 ?>
