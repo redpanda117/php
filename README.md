@@ -3,7 +3,7 @@
 start learning php basic syntax
 
 to have it open in browser
-inside the terminal of the folder type
+inside the terminal of the folder type inside of the terminal
     php -S localhost:8080
 
 What learn so far:
