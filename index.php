@@ -4,8 +4,8 @@ $task = [
         'task' => 'Groceries Shopping',
         'due' => 'January 12,2018',
         'assigned_to' => 'Tina',
-        'completed' => 'false',
-        'repeat' => 'true'
+        'completed' => false,
+        'repeat' => true
 ];
 
 //pushing a new description into the associative array

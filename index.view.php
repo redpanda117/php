@@ -17,8 +17,15 @@
 
         <?php foreach ($task as $taskDescription => $val) : ?>
             <li>
-            <strong><?= $taskDescription . ":"; ?></strong>
-            <?= $val; ?>
+                <!--ucwords just mean upercase first letter of the word-->
+                <strong><?= ucwords($taskDescription) . ":"; ?></strong>
+                
+                <?php if (is_bool($val)) : ?>
+                    <?= $val ? 'Complete' : 'InComplete'; ?>
+                <?php else: ?>  
+                    <?= $val; ?>
+                <?php endif; ?>
+                
             </li>
         <?php endforeach; ?>
         

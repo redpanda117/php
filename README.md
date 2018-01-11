@@ -12,4 +12,6 @@ What learn so far:
 - add HTML with php in it 
 - put HTML and php into separtate files
 - made an array
-- made an associative array 
+- made an associative array
+- boolean  
+
