@@ -5,6 +5,7 @@ $task = [
         'due' => 'January 12,2018',
         'assigned_to' => 'Tina',
         'completed' => false,
+        'urgent' => true,
         'repeat' => true
 ];
 

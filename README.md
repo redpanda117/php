@@ -14,4 +14,4 @@ What learn so far:
 - made an array
 - made an associative array
 - boolean  
-
+- conditional statment (aka if or else statment)
