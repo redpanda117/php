@@ -15,20 +15,11 @@
         <h1>
         <ul>
 
-
-
-
-        <?php
-           //this is like a loop in php
-           //go through the array and list each name.
-            foreach ($family as $name) {
-                echo "<li>$name</li>";
-            } 
-        ?>
-
-        <!--this is an alternative verson (does the exact same thing)-->
-        <?php foreach ($family as $name) : ?>
-            <li><?= $name; ?></li>
+        <?php foreach ($task as $taskDescription => $val) : ?>
+            <li>
+            <strong><?= $taskDescription . ":"; ?></strong>
+            <?= $val; ?>
+            </li>
         <?php endforeach; ?>
         
         </ul>
