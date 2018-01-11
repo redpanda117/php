@@ -13,8 +13,25 @@
 <body>
     <header>
         <h1>
-        <!--This is php shorthand for imediate echo  -->
-            <?= 'Started learning php so, ' . $greeting; ?>
+        <ul>
+
+
+
+
+        <?php
+           //this is like a loop in php
+           //go through the array and list each name.
+            foreach ($family as $name) {
+                echo "<li>$name</li>";
+            } 
+        ?>
+
+        <!--this is an alternative verson (does the exact same thing)-->
+        <?php foreach ($family as $name) : ?>
+            <li><?= $name; ?></li>
+        <?php endforeach; ?>
+        
+        </ul>
         </h1>    
     </header>
 </body>
