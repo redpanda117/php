@@ -21,7 +21,7 @@
                 <strong><?= ucwords($taskDescription) . ":"; ?></strong>
                 
                 <!--this is a conditional statment-->
-                <!-- if val is a boolean made a check mark (if boll is true)/ x mark (if bool is false) using html unicode (reference from w3school)-->
+                <!-- if val is a boolean made a check mark/ x mark using html unicode (reference from w3school)-->
                 <?php if (is_bool($val)) : ?>
                     <?= $val ? '&#9989;' : '&#10062;' ?>
                 <!--if val is not a boolean then echo the val-->
