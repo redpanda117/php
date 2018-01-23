@@ -17,3 +17,4 @@ What I learn so far:
 - conditional statment (aka if or else statment)
 - made a function
 - made a class (look like a constructor in Javascript)
+- PDO (php data object), working with mysql
