@@ -15,3 +15,5 @@ What I learn so far:
 - made an associative array
 - boolean  
 - conditional statment (aka if or else statment)
+- made a function
+- made a class (look like a constructor in Javascript)
